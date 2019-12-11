@@ -1,0 +1,76 @@
+#div1{
+    width: 500px;
+    height: 600px;
+    background: lightslategray;;
+}
+
+#p1{
+    position: absolute;
+    top: 30px;
+    left: 125px;
+    font-family: cursive;
+    font-size: 30px;
+}
+#un{
+    position: absolute;
+    top: 155px;
+    left: 80px;
+}
+#userName{
+    position: absolute;
+    top: 155px;
+    left: 200px;
+}
+#EA{
+    position: absolute;
+    top: 225px;
+    left: 80px;
+}
+#EmailAddress{
+    position: absolute;
+    top: 225px;
+    left: 200px;
+}
+#pw{
+    position: absolute;
+    top: 305px;
+    left: 80px;
+}
+#Password{
+    position: absolute;
+    top: 305px;
+    left: 200px;
+}
+#db{
+    position: absolute;
+    top: 375px;
+    left: 80px;
+}
+#DOB{
+    position: absolute;
+    top: 375px;
+    left: 200px;
+}
+#p2{
+    position: absolute;
+    top: 440px;
+    left: 55px;
+    font-family: monospace;
+    font-size: 15px;
+    color: aqua;
+}
+#RegistrationBtn{
+    position: absolute;
+    top: 520px;
+    left: 330px;
+    background: cadetblue;
+    font-size: 22px;
+}
+#CancelBtn{
+    position: absolute;
+    top: 522px;
+    left: 160px;
+    font-size: 22px;
+    background: crimson;
+}
+
