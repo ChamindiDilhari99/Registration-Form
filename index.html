@@ -2,32 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Registration Form</title>
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css">
+    <link rel="stylesheet" href="css.css">
 </head>
 <body>
-<div id="div1">
-    <p id="p1">Registration Form</p>
-    <label for="userName" id="un">User Name</label>
-    <input type="text" id="userName" placeholder="User Name">
-
-    <label for="EmailAddress" id="EA">Email Address</label>
-    <input type="EmailAddress" id="EmailAddress" placeholder="EmailAddress">
-
-    <label for="Password" id="pw">Password</label>
-    <input type="password" id="Password" placeholder="Password">
-
-    <p id="p2">Forgot Your Password?</p>
-
-    <label for="DOB" id="db">Date Of Birth</label>
-    <input type="DOB" id="DOB" placeholder="DOB">
-
-
-    <button type="submit" id="RegistrationBtn">Registration</button>
-
-    <button type="submit" id="CancelBtn">Cancel</button>
-
-</div>
+    <div id="div1">
+        <p id="p1">Registration Form</p>
+        <img src="assests/images.png" id="img">
+        <div id="div2">
+        <div class="form-group">
+            <label for="userName" id="usernameLbl" >User Name</label>
+            <input type="username" class="form-control" id="userName">
+        </div>
+    
+        <div class="form-group">
+            <label for="EmailAddress" id="EA" >Email Address</label>
+            <input type="EmailAddress" class="form-control" id="EmailAddress">
+        </div>
+    
+        <div class="form-group">
+            <label for="Password" id="pw" >Password</label>
+            <input type="Password" class="form-control" id="Password">
+        </div>
+    
+        <div class="form-group">
+            <label for="DOB" id="db" >Date Of Birth</label>
+            <input type="DOB" class="form-control" id="DOB">
+        </div>
+    
+        <p id="p2">Forgot Your Password?</p>
+    
+        <button type="button" class="btn btn-primary" id="RegistrationBtn">Registration</button>
+    
+        <button type="button" class="btn btn-danger" id="CancelBtn">Cancel</button>
+    
+    </div>
+    </div>
 
 </body>
 </html>

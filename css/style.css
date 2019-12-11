@@ -1,76 +1,103 @@
 #div1{
-    width: 500px;
-    height: 600px;
-    background: lightslategray;;
+    width: 650px;
+    height: 700px;
+    position: absolute;
+    top: 3px;
+    left: 420px;
+    background: aliceblue;
+    border-radius: 40px;
 }
-
+#img{
+    position: absolute;
+    width: 120px;
+    top: 55px;
+    left: 280px;
+    border-radius: 50px;
+}
+#div2{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, cornflowerblue, transparent);
+    top: 180px;
+    left: 75px;
+}
 #p1{
     position: absolute;
-    top: 30px;
-    left: 125px;
+    top: 10px;
+    left: 200px;
     font-family: cursive;
-    font-size: 30px;
+    font-size: 30px
 }
-#un{
+#usernameLbl{
     position: absolute;
-    top: 155px;
+    top: 65px;
     left: 80px;
+    width: 220px;
+    font-size: 18px;
 }
 #userName{
     position: absolute;
-    top: 155px;
+    top: 65px;
     left: 200px;
+    width: 220px;
 }
 #EA{
     position: absolute;
-    top: 225px;
+    top: 135px;
     left: 80px;
+    font-size: 18px
 }
 #EmailAddress{
     position: absolute;
-    top: 225px;
+    top: 135px;
     left: 200px;
+    width: 220px;
 }
 #pw{
     position: absolute;
-    top: 305px;
+    top: 205px;
     left: 80px;
+    font-size: 18px;
 }
 #Password{
     position: absolute;
-    top: 305px;
+    top: 205px;
     left: 200px;
+    width: 220px;
 }
 #db{
     position: absolute;
-    top: 375px;
+    top: 275px;
     left: 80px;
+    font-size: 18px;
 }
 #DOB{
     position: absolute;
-    top: 375px;
+    top: 275px;
     left: 200px;
+    width: 220px;
 }
 #p2{
     position: absolute;
-    top: 440px;
+    top: 340px;
     left: 55px;
     font-family: monospace;
-    font-size: 15px;
-    color: aqua;
+    font-size: 16px;
+    color: darkmagenta;
 }
 #RegistrationBtn{
     position: absolute;
-    top: 520px;
+    top: 410px;
     left: 330px;
     background: cadetblue;
     font-size: 22px;
 }
 #CancelBtn{
     position: absolute;
-    top: 522px;
+    top: 410px;
     left: 160px;
     font-size: 22px;
     background: crimson;
 }
-
